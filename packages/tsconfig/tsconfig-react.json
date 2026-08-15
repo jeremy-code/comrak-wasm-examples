@@ -1,0 +1,18 @@
+{
+  "display": "React Library",
+  "extends": "./tsconfig-base",
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Language and Environment */
+    "jsx": "react-jsx",
+    "lib": [
+      "ES2024",
+      "DOM",
+      "DOM.Iterable",
+      "ESNext.Array",
+      "ESNext.TypedArrays"
+    ]
+  },
+  "exclude": ["${configDir}/node_modules"]
+}

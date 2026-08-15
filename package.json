@@ -1,0 +1,27 @@
+{
+  "name": "comrak-wasm-examples",
+  "version": "0.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "oxlint && pnpm run --recursive lint",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check"
+  },
+  "devDependencies": {
+    "@comrak-wasm-examples/oxlint-config": "workspace:*",
+    "@comrak-wasm-examples/tsconfig": "workspace:*",
+    "oxfmt": "^0.63.0",
+    "oxlint": "^1.78.0",
+    "typescript": "^6.0.3"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.21.0",
+      "onFail": "download"
+    }
+  }
+}

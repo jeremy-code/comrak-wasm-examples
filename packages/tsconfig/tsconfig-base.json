@@ -1,0 +1,38 @@
+{
+  "display": "Default",
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Type Checking */
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+    "strictNullChecks": true,
+
+    /* Modules */
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    /* Language and Environment */
+    "lib": ["ES2024", "ESNext.Array", "ESNext.TypedArrays"],
+    "moduleDetection": "force",
+    "target": "ES2024",
+
+    /* Projects */
+    "incremental": false,
+
+    /* Completeness */
+    "skipLibCheck": true,
+  },
+  "include": [
+    "${configDir}/**/*.ts",
+    "${configDir}/**/*.tsx",
+    "${configDir}/**/*.d.ts"
+  ]
+}

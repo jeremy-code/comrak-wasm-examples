@@ -1,0 +1,17 @@
+{
+  "name": "@comrak-wasm-examples/node",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "oxlint",
+    "start": "node src/index.ts",
+    "start2": "node src/index2.ts"
+  },
+  "dependencies": {
+    "comrak-wasm": "^0.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  }
+}

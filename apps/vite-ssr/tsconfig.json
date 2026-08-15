@@ -1,0 +1,8 @@
+{
+  "extends": "@comrak-wasm-examples/tsconfig/tsconfig-react",
+  "compilerOptions": {
+    "noEmit": true,
+    "lib": ["ES2025", "DOM"],
+    "types": ["vite/client", "node"]
+  }
+}

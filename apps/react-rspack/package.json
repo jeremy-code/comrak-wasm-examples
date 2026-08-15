@@ -1,0 +1,25 @@
+{
+  "name": "react-rspack",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production rspack build",
+    "dev": "rspack serve",
+    "preview": "rspack preview"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^2.1.10",
+    "@rspack/dev-server": "^2.2.0",
+    "@rspack/plugin-react-refresh": "^2.0.2",
+    "react-refresh": "^0.18.0"
+  }
+}

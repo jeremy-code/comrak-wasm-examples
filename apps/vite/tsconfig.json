@@ -1,0 +1,6 @@
+{
+  "extends": "@comrak-wasm-examples/tsconfig/tsconfig-react",
+  "compilerOptions": {
+    "types": ["node", "vite/client", "@tanstack/react-start"]
+  }
+}
